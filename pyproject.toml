@@ -62,7 +62,7 @@ include = [
 ]
 
 [tool.hatch.build.force-include]
-"frontend/dist" = "/opuscleaner/frontend"
+"frontend/dist" = "opuscleaner/frontend"
 
 [tool.hatch.metadata.hooks.requirements_txt]
 files = ["requirements.txt"]
